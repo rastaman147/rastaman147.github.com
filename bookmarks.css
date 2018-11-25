@@ -1,0 +1,238 @@
+body {
+	/* background-color: #DE7C29; */
+	background-color: WHITE;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 70%;
+	margin: 0;
+	padding: 0;
+	}
+	
+#container {
+	/* background: #F3F3C6; */
+	background: WHITE;
+	width: 860px;
+	margin: auto;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	padding: 0;
+			}
+
+#column1 {
+	background: #FAFACF;
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	width: 250px;
+	float: left;
+	border-right: 2px solid #E2E5B6;
+		}
+		
+
+		
+		#column2 {
+	background: grey;
+	margin: 0;
+	padding: 10px 38px 10px 20px;
+	width: 186px;
+	float: left;
+	/* border-right: 2px solid #E2E5B6; */
+		}
+		
+		#column3 {
+	background: grey;
+	margin: 0;
+	padding: 10px 38px 10px 20px;
+	width: 186px;
+	float: left;
+	/* border-right: 2px solid #E2E5B6; */
+		}
+		
+
+		
+		#singlecolumn {
+	background: grey;
+	margin: 0;
+	padding: 30px 38px 10px 20px;
+	width: 700px;
+	float: right;
+	border-right: 2px solid #E2E5B6;
+		}
+		
+#navigation {
+	margin: 0 0px 0px 0px;
+	padding: 10px 10px 10px 10px;
+	float: right;
+	width: 180px;
+	height: 100%;
+	/*border: 1px #666 solid;
+	text-align: center; */
+		}
+		
+#navigation h2 {
+	color: #ff0000;
+	text-align:center;
+	margin: 40px 20px 0px 0px;
+	
+	}
+		
+#footer {
+	clear: both;
+	padding: 10px 20px;
+	margin: 0;
+	color: #BBB;
+	font-size: 85%;
+	font-weight: bold;
+	background-color: #333;
+	text-align:center;
+		}
+		
+				
+li {
+	margin: 0 10px 8px 0;
+		}
+		
+p,table {
+	margin: 5px 0px 5px 0px;
+		}
+		
+table {
+	/*font-size: 12px; */
+	width: 860px;
+	margin: 10px 10px 10px 10px;
+	/* margin: 5px 0 0 50px; */
+	/*border: 1px solid #ccc; */
+	border-spacing: 10px 5px;
+	/* background-color: white; */
+		}
+		
+.greyback {
+	background-color: yellow;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 10px;
+		}
+		
+td {
+	vertical-align: middle;
+		}
+
+.yearcol {
+	width: 10%;
+	text-align: left;
+		}
+
+.spacecol {
+	width: 5%;
+	border-bottom: none;
+		}
+
+.qualcol {
+	width: 60%;
+	text-align: left;
+		}
+.firstcol {
+	width: 50%;
+	text-align: left;
+		}	
+.secondcol {
+	width: 50%;
+	text-align: left;
+		}		
+		
+th {
+	font-weight: bold;
+	/* border-bottom: 1px dashed #FF6A0F; */
+		}
+		
+h1 {
+	/* background: url(images/title_back2.jpg) no-repeat top left; */
+	margin: 0;
+	padding: 42px 60px 42px 40px;
+	font-family: "Lucida Grande", "Lucida Sana", "Trebuchet MS";
+	font-size: 250%;
+	font-weight: bold;
+	color: #fff;
+	background-color: #333;
+	text-align:center;
+		}
+		
+h2 {
+	margin: 18px 0 3px 0;
+	padding: 16px 0 3px 8px;
+	/* background: url(images/gradient.gif) no-repeat top left; */
+	background: grey;
+	font-size: 115%;
+	font-weight: bold;
+	color: #2B2B6A;
+	border-bottom: 1px solid #DE7C29;
+		}
+		
+h3 {
+	margin: 10px 0 5px 10px;
+	font-size: 90%;
+	font-weight: bold;
+	color: #2B2B6A;
+		}
+		
+h4 {
+	/* background: grey; */
+	background: white;
+	font-size: 115%;
+	font-weight: bold;
+	color: #2B2B6A;
+	margin: auto;
+	border: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+		}	
+
+h5 {
+	/* background: grey; */
+	background: white;
+	color: #2B2B6A;
+	margin: auto;
+	font-weight: normal;
+	border: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+		}	
+
+h6 {
+	/* background: grey; */
+	background: white;
+	font-size: 115%;
+	font-weight: bold;
+	color: #2B2B6A;
+	margin: auto;
+	border: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+	text-align:center;
+		}			
+		
+img {
+	float: left;
+	background: #fff;
+	/* top, right, bottom, left */
+	vertical-align: middle;
+	
+	/* height: 220px;
+	width: 220px; 
+	use class=standardsize for most images */
+	
+	margin: 10px 10px 0px 10px;
+	padding: 5px;
+	border: 1px solid #D9E0E6;
+	border-bottom-color: #C8CDD2;
+	border-right-color: #C8CDD2;
+	
+		/* if same color as bottom and right border, do NOT need to include left and top */
+	border-left-color: #C8CDD2;
+	border-top-color: #C8CDD2;
+		}
+.standardsize {
+	height: 220px;
+	width: 220px;
+		}
+		
+		
+.noborder {
+	border: none;
+	margin: 0px 10px 0px 0;
+	padding: 0px;
+	}
